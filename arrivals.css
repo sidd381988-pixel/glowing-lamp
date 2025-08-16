@@ -1,0 +1,22 @@
+main {
+    padding: 2rem;
+}
+
+#arrivals-container {
+    margin-top: 2rem;
+}
+
+#arrivals-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#arrivals-table th, #arrivals-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#arrivals-table th {
+    background-color: #f2f2f2;
+}

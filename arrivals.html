@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburger Menu</title>
+    <title>PHX Arrivals</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="arrivals.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="nav-branding">BRAND</a>
+            <a href="index.html" class="nav-branding">BRAND</a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
@@ -31,6 +32,26 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <h1>Phoenix (PHX) Arrivals</h1>
+        <div id="arrivals-container">
+            <table id="arrivals-table">
+                <thead>
+                    <tr>
+                        <th>Flight</th>
+                        <th>Origin</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Flight data will be loaded here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
     <script src="script.js"></script>
+    <script src="arrivals.js"></script>
 </body>
 </html>
